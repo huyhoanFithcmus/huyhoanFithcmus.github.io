@@ -1,121 +1,64 @@
-
-#main
-{
-
+body {
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
 }
-
-#header
-{
-    height: 46px;
-    background-color: rgb(190, 190, 241);
+.header {
     text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
 }
 
-#nav li
-{
-    display: inline-block;
-}
-
-#nav li a
-{
-    color: grey;
-    text-decoration: none;
-    padding-left: 24px;
-    padding-right: 24px;
-    display: inline-block;
-    width: 100%;
-}
-
-#profile
-{
-    margin-left: 35%;
-}
-
-#profile img{
+.profile {
+    width: 150px;
     border-radius: 50%;
-    margin-top: 46px;
 }
 
-#profile #text-heading
-{
-    position: absolute;
-   margin-left: 10%;
-   transform: translateY(-85px);
-   
+.profile-name{
+    margin-top: 5px;
+    font-size: 36px;
 }
 
-#profile #text-heading h2
+.profile-oganization{
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.content
 {
-    font-weight: 500;
-    font-size: 24px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    color: #258cdb;
+    text-decoration: none;
+}
+
+a:hover{
+    color:red;
+}
+
+
+#project
+{
     margin-top: 10px;
-    margin-bottom: 10px;
 }
 
-
-#bio
-{
-    transform: translateX(470px);
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #258cdb;
 }
-
-#bio a
-{
-    color: black;
-}
-
-#content .member-list
-{
-    margin-top: 48px;
-}
-
-#content .member-item
-{
-    float: left;
-    width: 33.333333%;
-    text-align: center;
-
-}
-
-h1
-{
-    text-align: center;
-    padding: 30px;
-}
-
-#research .member-list
-{
-    margin-top: 48px;
-}
-
-#research .member-item
-{
-    float: left;
-    width: 33.333333%;
-    text-align: center;
-}
-
-#education
-{
-    transform: translateX(200px);
-}
-
-#education .member-list
-{
-    margin-top: 48px;
-}
-
-#education .member-item
-{
-    float: left;
-    width: 33.333333%;
-    text-align: center;
-}
-
 .footer
 {
     padding: 30px;

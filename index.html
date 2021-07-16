@@ -1,95 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport">
-        <title>Nguyễn Huy Hoàn</title>
-        <link rel="stylesheet" href="./assets/style.css">
+        <title>Nguyen Huy Hoan</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/assets/style.css">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div id="main">
-            <div id="header">
-                <ul id="nav">
-                    <li><a href="timetable.html">Timetable</a></li>
-                    <li><a href="">Publications</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Blog</a></li>
-                </ul>
-            </div>
-
-            <div id="profile">
-                <img src="./assets/image/hoan.jpg" alt="Nguyễn Huy Hoàn" width="100" id="hoan">
-            
-                <div id="text-heading">
-                    <h2>NGUYEN HUY HOAN</h2>
-                    <div id="school">UNIVERSITY OF SCIENCE - VNUHCM</div>
-                </div>
-            </div>
-
-            <h1 style="background-color: rgb(190, 190, 241);">BIOGRAPHY</h1>
-
-            <div id="content">
-                <div class="member-list" style="overflow: hidden;">
-                    <div class="member-item">
-                        <img src="./assets/image/hcmus.png" alt="" class="member-img">
-                        <p class="member-name">University of Science</p>
-                    </div>
-
-                    <div class="member-item">
-                        <img src="./assets/image/download.png" alt="" class="member-img">
-                        <p class="member-name">Faculty of Information Technology</p>
-                        <p> (Student)</p>
-                    </div>
-
-                    <div class="member-item">
-                        <img src="./assets/image/cs50.png" alt="" class="member-img" width="50%">
-                        <p class="member-name">Online learning at CS50</p>
-                        <p>(Student)</p>
+        <main class="page-content" aria-label="Content">
+            <div class="wrapper">
+                <div class="header">
+                    <img class="profile" src="/assets/image/hoan.jpg" alt="Nguyen Huy Hoan">
+                    <h1 class="profile-name">Huy-Hoan Nguyen</h1>
+                    <h2 class="Profile-oganization">Student, VNUHCM - UNIVERSITY OF SCIENCE</h2>
+                    <div class="pure-menu pure-menu-horizontal pure-menu-scrollable">
+                        <ul class="pure-menu-list">
+                            <li class="pure-menu-item">
+                                <a href="/index.html" class="pure-menu-link">Home</a>
+                            </li>
+                            <li class="pure-menu-item">
+                                <a href="/video.html" class="pure-menu-link">Videos</a>
+                            </li>
+                            <li class="pure-menu-item">
+                                <a href="/timetable.html" class="pure-menu-link">Timetable</a>
+                            </li>
+                            <li class="pure-menu-item">
+                                <a href="./posts.html "class="pure-menu-link">About Me</a>
+                            </li>
+                            <li class="pure-menu-item">
+                                <a href="/projects.html" class="pure-menu-link">Projects</a>
+                            </li>
+                            <li class="pure-menu-item">
+                                <a href="https://github.com/huyhoan652002" class="pure-menu-link">Github</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-            
-            <h1 style="background-color: rgb(190, 190, 241);">
-                Research Interest
-            </h1>
-
-            <div id="research">
-                <div class="member-list" style="overflow: hidden;">
-                    <div class="member-item">
-                        <img src="./assets/image/lua.png" alt="" class="member-img" width="50%">
-                        <p class="member-name">Game Development with Lua</p>
+                <div class="content">
+                   <h1 id="Wellcome">Wellcome to my Homepage!!</h1>
+                   <p>I'm Hoan, a student at VNUHCM - University of Science, I'm learning at 
+                       <a href="https://www.fit.hcmus.edu.vn/vn/">faculty of Information Technology HCMUS</a>
+                    . I'm  in search of a position that allows me to apply my 
+                    management and technical skills to achieve club goals, develop improved processes for managing IT 
+                    requests and accomplish projects in a more efficient way.
+                    </p>
+                    <p>Contact me at: <a href="huyhoan652002@gmail.com">huyhoan652002@gmail.com</a>.</p>
+                    <p>My résume at <a href="/assets/resume/Resume.pdf">Résume</a>.</p>
+                    
+                    <h2>Videos</h2>
+                    <p>I have do a project at CS50W and this is my first <a href="https://www.youtube.com/">Youtube</a> video.</p>
+                    <script src="https://apis.google.com/js/platform.js"></script>
+                    <div class="embed">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/mKfMHViZSDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-
-                    <div class="member-item">
-                        <img src="./assets/image/dataS.png" alt="" class="member-img" width="50%">
-                        <p class="member-name">Data Science: R</p>
-                    </div>
-
-                    <div class="member-item">
-                        <img src="./assets/image/react.png" alt="" class="member-img" width="320px">
-                        <p class="member-name">Mobile App with React Native</p>
-                    </div>
+                    <h2 id="project">Projects</h2>
+                    <h3 id="TURTLE-RACING-GAME">TURTLE RACING GAME</h3>
+                    <ul>
+                        <li> Team size: 6 </li>
+                        <li> My position: Developer</li>
+                        <li> My responsibilities: Developer, Bug Fixing </li>
+                        <li> Technologies used:
+                            <p>- Visual Studio 2019, Visual Studio Code, Python, Pygame 2.0, Turtle </p>
+                            <p>- Messenger, One Drive, Outlook</p>
+                            <p>- Github , Stackoverflow, Geeksforgeeks</p>
+                            <p>- Language: Python</p>
+                        </li>
+                        <li> Description: a game in which the player will choose their favorite racer to race with the remaining 4 
+                            racers and bet a specific amount, the player will be given 1000 dollars, if the player's character wins, 
+                            player will not lose the money and they win the money they bet, if they lose they will lose the money they 
+                            bet.</li>
+                    </ul>
+                    <hr>
+                    <h3 id="GOOGLE-SEARCH ">GOOGLE SEARCH </h3>
+                    <ul>
+                        <li>Team size: 1
+                        </li>
+                        <li> My position: Developer
+                        </li>
+                        <li> My responsibilities: Developer, Bug Fixing</li>
+                        <li> Technologies used:
+                            <p>- Visual Studio Code </p>
+                            <p>- Github , Stackoverflow, Geeksforgeeks</p>
+                            <p>- Language: HTML, CSS  </p>
+                        </li>
+                        <li>Description: This project from CS50W, student have to design a front-end for Google Search, Google 
+                            Image Search, and Google Advanced Search.</li>
+                    </ul>
+                    <hr>
+                    <h3 id="ALGORITHM-CHECKER">ALGORITHM CHECKER</h3>
+                    <ul>
+                        <li>Team size: 4</li>
+                        <li> My position: Tester</li>
+                        <li> My responsibilities: Test the runtime of algorithm and algorithm’s comparition</li>
+                        <li>Technologies used:
+                            <p>- Visual Studio Code, Visual Studio, Microsoft Excel, Outlook, One Drive </p>
+                            <p>-  Discord
+                            </p>
+                            <p>- Github , Stackoverflow, Geeksforgeeks</p>
+                            <p>-  Language: C, C++. </p></li>
+                        <li> Description: Project Data structure and algorithm. You are asked to implement ALL algorithms (for 
+                            ascending order only) present in the set you have selected, using C/C++ programming language.</li>
+                    </ul>
+                    <h4>View all my Projects at my <a href="https://github.com/huyhoan652002">Github</a></h4>
                 </div>
             </div>
-
-            <h1 style="background-color: rgb(190, 190, 241);">
-                Education
-            </h1>
-
-            <div id="education">
-                <div class="member-list" style="overflow: hidden;">
-                    <div class="member-item">
-                        <img src="./assets/image/tranbien.png" alt="" class="member-img" width="50%">
-                        <p class="member-name">Graduated Student, Tran Bien High School, DN, 2020</p>
-                    </div>
-
-                    <div class="member-item">
-                        <img src="./assets/image/hcmus.png" alt="" class="member-img" width="50%">
-                        <p class="member-name">Student, University of Science, VNU-HCMC</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </main>
     </body>
     <footer class="footer">
         <p style="color: blanchedalmond; text-align: center;">
