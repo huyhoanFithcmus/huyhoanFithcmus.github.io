@@ -171,6 +171,19 @@ img {
   cursor: pointer;
 }
 
+/* darkmode and lightmode */
+.dark {
+  border-color: black;
+  border-radius: 16px;
+}
+
+.light {
+  border-color: white;
+  background-color: white;
+  color: white;
+  border-radius: 16px;
+}
+
 /*Active menu*/
 .active::after {
   position: absolute;
