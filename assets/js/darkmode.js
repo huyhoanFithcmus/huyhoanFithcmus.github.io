@@ -56,11 +56,12 @@ function darkmode()
     h1Elements[i].style.backgroundColor = "#449744";
     }
 
-    var h1Elements = document.getElementsByClassName("darkmode");
+    var darkbutton = document.getElementsByClassName("dark");
 
-    for(var i = 0; i < h1Elements.length; i++) {
-    h1Elements[i].style.backgroundColor = "#449744";
+    for(var i = 0; i < darkbutton.length; i++) {
+        darkbutton[i].style.backgroundColor = "black";
     }
+
 
     var h1Elements = document.getElementsByClassName("l-main");
 
